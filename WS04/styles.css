@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item {
+  background-color: rgb(182, 204, 16);
+  padding: 20px;
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.box {
+  background-color: rgb(150, 96, 9);
+  padding: 20px;
+  text-align: center;
+}
