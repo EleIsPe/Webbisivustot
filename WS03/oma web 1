@@ -27,10 +27,10 @@
             nettisivu
           </h1>
           <p class="hero-description">
-            Ensimmäinen oma verkkosivu, jonka olen tehnyt ja mitä tule nkäyttämään tulevaisuudessa.
+            Ensimmäinen tekemäni verkkosivu.
           </p>
           <div class="button-group">
-            <button class="btn btn-primary">Aloita nyt</button>
+            <button class="btn btn-primary">Ota yhteyttä</button>
             <button class="btn btn-secondary">Lue lisää</button>
           </div>
         </div>
@@ -41,9 +41,9 @@
           </div>
           <div class="info-card">
             <p class="info-card-label">Minimalistinen tyyli</p>
-            <h2 class="info-card-title">Luonnollinen tunnelma</h2>
+            <h2 class="info-card-title">Helppokäyttöinen</h2>
             <p class="info-card-text">
-              Halusin luoda modernisen ja luonnollisen tyylin sivustolle.
+              Moderninen, helppo muokata sopivaksi ja käyttäjä ystävällinen.
             </p>
           </div>
         </div>
@@ -75,9 +75,9 @@
     <section class="cta-section">
       <div class="cta-card">
         <p class="cta-label">Ensimmäisen vuoden opiskelijan tekemä</p>
-        <h2 class="cta-title">Kiitän käytitte aikaa tutustumiseen oman työn jalanjälkeeni!</h2>
+        <h2 class="cta-title">Kiitän käytitte aikaa tutustumiseen minun työhöni!</h2>
         <p class="cta-description">
-          Lisää pohjia tulossa seuraavien vuosien aikana.
+          Lisää verkkosivuja tulossa seuraavien vuosien aikana.
         </p>
         <button class="btn btn-cta">Käytä pohjaa</button>
       </div>
