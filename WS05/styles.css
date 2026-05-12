@@ -22,7 +22,7 @@
   text-align: center;
 }
 .responsive-box {
-  padding: 20px;
+  padding: 40px;
   text-align: center;
 }
 
@@ -44,7 +44,7 @@
     
     .column {
       flex: 1;
-      padding: 10px;
+      padding: 40px;
     }
     
     @media (max-width: 100px) {
@@ -59,7 +59,7 @@
     }
 
     .media-query-box {
-      padding: 10px;
+      padding: 40px;
       text-align: center;
     }
     
@@ -74,7 +74,7 @@
         background-color: rgb(43, 193, 243);
       }
     }
-
+    
 .responsive-nav .nav-list {
       display: flex;
       list-style: none;
