@@ -1,3 +1,166 @@
-.selector-for-some-widget {
-  box-sizing: content-box;
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7f6;
+  color: #1a1a1a;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: white;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #4CAF50;
+}
+
+/* HERO */
+.hero-section {
+  padding: 60px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-title {
+  font-size: 42px;
+  margin: 10px 0;
+}
+
+.hero-description {
+  margin: 15px 0;
+  color: #555;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 10px 18px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #4CAF50;
+  color: white;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 2px solid #4CAF50;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* IMAGE */
+.hero-image {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.image-container {
+  max-width: 400px;
+}
+
+/* CARD */
+.info-card {
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+/* FEATURES */
+.features-section {
+  padding: 60px 20px;
+}
+
+.features-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.feature-card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  flex: 1;
+  text-align: center;
+}
+
+.feature-title {
+  margin: 10px 0;
+}
+
+/* CTA */
+.cta-section {
+  padding: 60px 20px;
+}
+
+.cta-card {
+  background: #4CAF50;
+  color: white;
+  padding: 40px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+/* BACKGROUND ICONS */
+.background-decorations {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.deco {
+  position: absolute;
+  font-size: 40px;
+  opacity: 0.2;
+}
+
+.deco-1 { top: 10%; left: 10%; }
+.deco-2 { top: 60%; left: 80%; }
+.deco-3 { top: 30%; left: 70%; }
+.deco-4 { top: 80%; left: 20%; }
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .features-grid {
+    flex-direction: column;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
 }
