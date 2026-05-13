@@ -112,6 +112,11 @@ body {
   text-align: center;
 }
 
+.feature-card:hover {
+  transform: translateY(10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
 .feature-title {
   margin: 10px 0;
 }
@@ -157,14 +162,14 @@ body {
   animation: float 12s linear infinite;
 }
 
-.deco:nth-child(1) { top: 10%; left: 5%; font-size: 40px; }
+.deco:nth-child(1) { top: 10%; left: 5%; font-size: 60px; }
 .deco:nth-child(2) { top: 20%; left: 80%; }
-.deco:nth-child(3) { top: 70%; left: 10%; font-size: 35px; }
+.deco:nth-child(3) { top: 70%; left: 10%; font-size: 45px; }
 .deco:nth-child(4) { top: 60%; left: 90%; }
-.deco:nth-child(5) { top: 40%; left: 30%; font-size: 45px; }
+.deco:nth-child(5) { top: 40%; left: 30%; font-size: 65px; }
 .deco:nth-child(6) { top: 80%; left: 60%; }
 .deco:nth-child(7) { top: 15%; left: 50%; }
-.deco:nth-child(8) { top: 75%; left: 25%; font-size: 40px; }
+.deco:nth-child(8) { top: 75%; left: 25%; font-size: 50px; }
 .deco:nth-child(9) { top: 50%; left: 70%; }
 .deco:nth-child(10){ top: 30%; left: 90%; }
 .deco:nth-child(11){ top: 85%; left: 40%; }
@@ -211,7 +216,7 @@ body {
 .contact-form textarea {
   padding: 10px;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #a1c57f;
 }
 
 .contact-form button {
